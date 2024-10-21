@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    margin: 0;
+    padding: 20px;
+    color: #444;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.review {
+    background: #fff;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    /* Para posicionar las estrellas en la esquina */
+}
+
+.review:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    color: #ff7f50;
+    font-size: 1.8em;
+}
+
+.rating {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 1.5em;
+    color: #ffcc00;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #000;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.anime-image {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+strong {
+    color: #0077b6;
+}
